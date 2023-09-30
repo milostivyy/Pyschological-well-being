@@ -1,0 +1,88 @@
+.questionparent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88vh;
+  background-image: url("https://raw.githubusercontent.com/priyayadav19054/assets/main/backgroundimage.jpg");
+  /* background-image: url("https://lh3.googleusercontent.com/txjhqqv_BzsLXyH9MiZgJHKXROkpVBZ-hjbP3bfrRmrJ1x6Ie_XEV_xLyNmA1sWsNZRRIC5Qt1wu3m8R8DQ7G1NuVyx_-ZYu6eSmNOKtsNIZLuYwGIS5iaXaxSV3HqzG3-zN_AVdcQVjtdyLAfnoVxw3c5b7yhLT2Bz5oTSM7CXJlgA37Q2JZbRwD8HyP4DfNXOOChHLaU0PbqgUYXeEoXY61CD9ldXvjX3xNPLlrM5mh81L3D5RlRUexhXRuC5UyNKmF1vBSUdYfDRRABSvS1GP3mrDg7yJsgAOroir4rWhKV3govf7JpxnLRiL124JsfVC5Az0jgT4dzcEoy7aMA-1H8_GKKsfrUyzpxD8gn0QYPgfavO56TBPqgTtK6m4ZNd3tUert9F6QMX_w6QZtIrm3NdJu1L8BxMfZH1EThxfJE-leI4BKbSlkY7T_UqRYw8XfaBFXuloxMUOThNN_q5sA0AkD50pDDSmzzHTZSg-j-aqCMsHiwKWJUnZ90z1wwGngxjQDT9VGoA50vOqMtldHKEJwne4gKbR_9G7Ojs5z2muGaHsCnE62YZu7861D8OsIc9aNNUmw-oZ1lUhHiFRhu_WZF02EHYIDLg-oa-ucVeoF6BmQ96PQ1tCqzYtXk9rpaRSKBJwDA2B8vwHg_j9Uq0rAJAjRA4Q_r0lYlDeCN-AvCGjC96Ykh6Yw5NKb8pElTr9e0vZ8967dh8CwZfNcVpuhizHNpv_W-U0WJ32fzF_hSaTBF5iZMYjq1jfL84uZwP5-I8w8tlrhsL5E_vmnS-pbbaLX9RhIfyn1DMroDNkz2dPOmS8zuDyb1sLSx7euhkjKyFpBZ6fGZlHuHS5VTKsV0GVy69PM31K00GiGebdhm6Ygd-kGlj9C1JA_hDljZ4pJF5Obe27csQUKNMzu1n2_9UIWeP_T6cZ8Am4Kag=w1255-h893-s-no?authuser=0"); */
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.questionbox {
+  text-align: center;
+  background-color: rgba(217, 231, 240, 0.75);
+  width: 30%;
+  border-radius: 16px;
+}
+
+.questiontext {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.speakButton {
+  border: none;
+  background-color: #3f51b5;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.speakButton:hover {
+  background-color: #1a237e;
+}
+
+.speakIcon {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* css for text box */
+
+.textbox {
+  width: 85%;
+  height: 60px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.textbox:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.submitButton:focus {
+  outline: none;
+  background-color: #388e3c;
+}
+
+.submitButton:active {
+  background-color: #45a049;
+}
